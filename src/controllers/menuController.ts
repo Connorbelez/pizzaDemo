@@ -63,6 +63,10 @@ export const getToppings = (): Promise<string[]> => {
 export const validateOrder = async (req: Request, res: Response) => {
     // destructure the request body
     let order:PizzaOrder;
+    console.log("validateOrder")
+    console.log("req.body")
+    console.log(req.body)
+    console.table(req.body)
     try{
         order = req.body as PizzaOrder;
         if (!order){
