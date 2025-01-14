@@ -196,5 +196,26 @@ describe('Menu Controller', () => {
         expect.arrayContaining(['Invalid Dough Type: carbon for size: large Valid types: regular,whole_wheat'])
       );
     });
+
+    test('should reject rule violation, large thin carbon', async () => {
+      mockRequest = {
+        body: {
+          quantity: 1,
+          name: 'Margherita',
+          size: 'large',
+          d_type: 'carbon',
+          d_thickness: 'thin',
+          toppings: [
+            { name: 'cheese', side: 'while', extra: true },
+            { name: 'Pepperoni', side: 'right', extra: false },
+          ]
+        }
+      }
+      await validateOrder(mockRequest as Request, mockResponse as Response);
+      expect(mockResponse.status).toHaveBeenCalledWith(400);
+      expect(mockResponse.send).toHaveBeenCalledWith(
+        expect.arrayContaining(['Invalid Dough Type: carbon for size: large Valid types: regular,whole_wheat'])
+      );
+    })
   });
 });

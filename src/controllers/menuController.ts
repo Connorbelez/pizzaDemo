@@ -4,7 +4,9 @@ import { MenuItem } from '../models/menuItem';
 import sqlite3 from 'sqlite3'
 import path from 'path';
 
-const dbPath = path.join(__dirname, '../db/menu.db');
+const DATA_DIR = path.join(process.cwd(), 'src/db');
+const dbPath = path.join(DATA_DIR, 'menu.db');
+
 const db = new sqlite3.Database(dbPath, (err) => {
     if (err) {
         console.error('Error opening database:', err.message);
