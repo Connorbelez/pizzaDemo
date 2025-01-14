@@ -1,0 +1,946 @@
+{
+    "menu": {
+        "DippingSauce": [
+            {
+                "name": "Creamy Garlic Parmesan Dip",
+                "price": "$1.25"
+            },
+            {
+                "name": "Jalapeno Ranch Dip",
+                "price": "$1.25"
+            },
+            {
+                "name": "Dill and Chive Dip",
+                "price": "$1.25"
+            },
+            {
+                "name": "Homestyle Tomato Sauce",
+                "price": "$1.25"
+            },
+            {
+                "name": "Blue Cheese Dip",
+                "price": "$1.25"
+            },
+            {
+                "name": "Pesto Dip",
+                "price": "$1.25"
+            },
+            {
+                "name": "Honey Garlic Sauce",
+                "price": "$1.25"
+            },
+            {
+                "name": "Hot Sauce",
+                "price": "$1.25"
+            },
+            {
+                "name": "Medium Sauce",
+                "price": "$1.25"
+            },
+            {
+                "name": "Barbecue Sauce",
+                "price": "$1.25"
+            },
+            {
+                "name": "Hot Honey Garlic",
+                "price": "$1.25"
+            },
+            {
+                "name": "BBQ Honey Garlic",
+                "price": "$1.25"
+            }
+        ],
+        "Chicken": [
+            {
+                "name": "10 Chicken Wings",
+                "price": "$14.99",
+                "description": "Chicken wings made from chicken raised without antibiotics.",
+                "customization": {
+                    "askWellDone": true,
+                    "sauceOptions": [
+                        "No Sauce",
+                        "BBQ",
+                        "BBQ Honey Garlic",
+                        "Honey Garlic",
+                        "Hot",
+                        "Hot Honey Garlic",
+                        "Italian Garlic Parmesan",
+                        "Medium",
+                        "1 Sauce on Side"
+                    ]
+                }
+            },
+            {
+                "name": "20 Chicken Wings",
+                "price": "$28.99",
+                "description": "Double the portion of antibiotic-free chicken wings.",
+                "customization": {
+                    "askWellDone": true,
+                    "sauceOptions": [
+                        "No Sauce",
+                        "BBQ",
+                        "BBQ Honey Garlic",
+                        "Honey Garlic",
+                        "Hot",
+                        "Hot Honey Garlic",
+                        "Italian Garlic Parmesan",
+                        "Medium",
+                        "2 Sauces on Side"
+                    ]
+                }
+            },
+            {
+                "name": "Chicken Trio",
+                "price": "$16.99",
+                "description": "Half-pound potato wedges, five chicken wings, five Pollini Bites.",
+                "customization": {
+                    "askWellDone": true,
+                    "sauceOptions": {
+                        "wingFlavours": [
+                            "No Sauce",
+                            "BBQ",
+                            "BBQ Honey Garlic",
+                            "Honey Garlic",
+                            "Hot",
+                            "Hot Honey Garlic",
+                            "Italian Garlic Parmesan",
+                            "Medium",
+                            "1 Sauce on Side"
+                        ],
+                        "polliniFlavours": [
+                            "No Sauce",
+                            "BBQ",
+                            "BBQ Honey Garlic",
+                            "Honey Garlic",
+                            "Hot",
+                            "Hot Honey Garlic",
+                            "Italian Garlic Parmesan",
+                            "Medium",
+                            "1 Sauce on Side"
+                        ]
+                    }
+                }
+            },
+            {
+                "name": "10 Chicken Pollini Bites",
+                "price": "$14.99",
+                "description": "Tender breaded boneless chicken bites.",
+                "customization": {
+                    "askWellDone": true,
+                    "sauceOptions": [
+                        "No Sauce",
+                        "BBQ",
+                        "BBQ Honey Garlic",
+                        "Honey Garlic",
+                        "Hot",
+                        "Hot Honey Garlic",
+                        "Italian Garlic Parmesan",
+                        "Medium",
+                        "1 Sauce on Side"
+                    ]
+                }
+            },
+            {
+                "name": "20 Chicken Pollini Bites",
+                "price": "$28.99",
+                "description": "Double the portion of boneless chicken bites.",
+                "customization": {
+                    "askWellDone": true,
+                    "sauceOptions": [
+                        "No Sauce",
+                        "BBQ",
+                        "BBQ Honey Garlic",
+                        "Honey Garlic",
+                        "Hot",
+                        "Hot Honey Garlic",
+                        "Italian Garlic Parmesan",
+                        "Medium",
+                        "2 Sauces on Side"
+                    ]
+                }
+            },
+            {
+                "name": "10 Plantollini Plant-Based Chicken Bites",
+                "price": "$14.99",
+                "description": "GMO-free and vegan plant-based chicken bites.",
+                "customization": {
+                    "askWellDone": true,
+                    "sauceOptions": [
+                        "No Sauce",
+                        "BBQ",
+                        "BBQ Honey Garlic",
+                        "Honey Garlic",
+                        "Hot",
+                        "Hot Honey Garlic",
+                        "Italian Garlic Parmesan",
+                        "Medium",
+                        "1 Sauce on Side"
+                    ]
+                }
+            },
+            {
+                "name": "20 Plantollini Plant-Based Chicken Bites",
+                "price": "$28.99",
+                "description": "Double portion of vegan plant-based chicken bites.",
+                "customization": {
+                    "askWellDone": true,
+                    "sauceOptions": [
+                        "No Sauce",
+                        "BBQ",
+                        "BBQ Honey Garlic",
+                        "Honey Garlic",
+                        "Hot",
+                        "Hot Honey Garlic",
+                        "Italian Garlic Parmesan",
+                        "Medium",
+                        "2 Sauces on Side"
+                    ]
+                }
+            }
+        ],
+        "Drinks": [
+            {
+                "name": "Coke - Bottle",
+                "price": "$2.79"
+            },
+            {
+                "name": "Coke Zero - Bottle",
+                "price": "$2.79"
+            },
+            {
+                "name": "Diet Coke - Bottle",
+                "price": "$2.79"
+            },
+            {
+                "name": "Ginger Ale - Bottle",
+                "price": "$2.79"
+            },
+            {
+                "name": "Coke - Can",
+                "price": "$1.89"
+            },
+            {
+                "name": "Coke Zero - Can",
+                "price": "$1.89"
+            },
+            {
+                "name": "Diet Coke - Can",
+                "price": "$1.89"
+            },
+            {
+                "name": "Ginger Ale - Can",
+                "price": "$1.89"
+            },
+            {
+                "name": "Orange Fanta - Can",
+                "price": "$1.89"
+            },
+            {
+                "name": "Root Beer - Can",
+                "price": "$1.89"
+            },
+            {
+                "name": "Sprite - Can",
+                "price": "$1.89"
+            },
+            {
+                "name": "San Pellegrino Aranciata Rossa (Blood Orange Flavour) - Can",
+                "price": "$2.99"
+            },
+            {
+                "name": "San Pellegrino Limonata (Lemon Flavour) - Can",
+                "price": "$2.99"
+            },
+            {
+                "name": "Brio - Can",
+                "price": "$2.49"
+            },
+            {
+                "name": "Chocolate Milk - Bottle",
+                "price": "$2.79"
+            },
+            {
+                "name": "Dasani Water - Bottle",
+                "price": "$2.39"
+            },
+            {
+                "name": "Iced Tea - Bottle",
+                "price": "$2.79"
+            },
+            {
+                "name": "Apple Juice - Bottle",
+                "price": "$2.99"
+            },
+            {
+                "name": "San Pellegrino Water - Bottle",
+                "price": "$2.99"
+            },
+            {
+                "name": "Smart Water - Bottle",
+                "price": "$3.19"
+            },
+            {
+                "name": "Vitamin Water XXX - Bottle",
+                "price": "$3.19"
+            }
+        ],
+        "GroceryMercato": [
+            {
+                "name": "Italian Hot Peppers",
+                "price": "$5.99",
+                "description": "Hot peppers that add a touch of heat to any dish."
+            },
+            {
+                "name": "Taralli with Olive Oil",
+                "price": "$3.99",
+                "description": "Apulian cracker snack made with simple and natural ingredients."
+            },
+            {
+                "name": "Sun-dried Black Olives",
+                "price": "$4.99",
+                "description": "Sun-ripened for enhanced bold and salty flavour."
+            },
+            {
+                "name": "Homestyle Tomato Sauce (Jar)",
+                "price": "$7.49",
+                "description": "Imported Italian tomatoes, extra virgin olive oil, roasted garlic, and sea salt."
+            },
+            {
+                "name": "Spicy Green Olives (212 grams)",
+                "price": "$3.99",
+                "description": "Whole green olives marinated in crushed chilies and onions."
+            },
+            {
+                "name": "Doritos",
+                "price": "$1.89",
+                "description": "Nacho Cheese - 45g bag."
+            },
+            {
+                "name": "Chip Lays Classic",
+                "price": "$1.89",
+                "description": "Lay's Classic Potato Chips - 40g bag."
+            },
+            {
+                "name": "Sun Chips",
+                "price": "$1.89",
+                "description": "Harvest Cheddar - 40g bag."
+            },
+            {
+                "name": "Miss Vickies",
+                "price": "$1.89",
+                "description": "Sea Salt & Malt Vinegar Potato Chips - 40g."
+            },
+            {
+                "name": "D.O.P. Extra Virgin Olive Oil",
+                "price": "$14.99",
+                "description": "D.O.P olive oil from Terra di Bari, Castel del Monte, Italy."
+            },
+            {
+                "name": "Extra Virgin Olive Oil with Hot Chili Pepper",
+                "price": "$12.99",
+                "description": "Extra virgin olive oil with a spicy kick."
+            },
+            {
+                "name": "Spicy Sfilatello",
+                "price": "$3.99",
+                "description": "Hot Italian Sfilatello Pepperoni Sticks - 60g (2 sticks)."
+            },
+            {
+                "name": "Nutella Chocolate Hazelnut Spread 25g Mini Jar",
+                "price": "$1.25",
+                "description": "Mini jar of Nutella spread."
+            },
+            {
+                "name": "Hot Honey Bottle",
+                "price": "$16.49",
+                "description": "Mike’s Hot Honey 12oz Squeeze Bottle."
+            },
+            {
+                "name": "Italian Peeled Tomatoes",
+                "price": "$3.99",
+                "description": "Juicy plum tomatoes and fresh basil."
+            }
+        ]
+    },
+    "Toppings": {
+        "rules": {
+            "maxChoices": 10,
+            "maxPerTopping": 2,
+            "placementOptions": [
+                "Left Side",
+                "Right Side",
+                "Entire Pizza"
+            ],
+            "priceArrays": {
+                "normal": [
+                    "+$1.90",
+                    "+$2.40",
+                    "+$2.75",
+                    "+$3.75",
+                    "+$3.95"
+                ],
+                "premium": [
+                    "+$2.55",
+                    "+$3.00",
+                    "+$3.50",
+                    "+$4.60",
+                    "+$4.80"
+                ]
+            }
+        },
+        "categories": {
+            "Meat": [
+                {
+                    "name": "Pepperoni",
+                    "description": "Free of antibiotics or hormones, made from Canadian, vegetable grain-fed beef and pork.",
+                    "premium": false
+                },
+                {
+                    "name": "Bacon",
+                    "description": "Centre-cut strips of Canadian bacon, from pork raised without antibiotics.",
+                    "premium": true
+                },
+                {
+                    "name": "Hot Soppressata",
+                    "description": "Southern Italian specialty, dry-cured salami rich in spice.",
+                    "premium": true
+                },
+                {
+                    "name": "Spicy Sausage",
+                    "description": "Seasoned with herbs, chili peppers, and fennel seeds.",
+                    "premium": false
+                },
+                {
+                    "name": "Anchovies",
+                    "description": "Imported small, salty fish from Morocco.",
+                    "premium": false
+                },
+                {
+                    "name": "Grilled Chicken",
+                    "description": "Canadian farm-raised chicken without antibiotics.",
+                    "premium": true
+                },
+                {
+                    "name": "Smoked Ham",
+                    "description": "Thinly sliced smoked ham from Canadian farms.",
+                    "premium": false
+                },
+                {
+                    "name": "Ground Beef",
+                    "description": "Seasoned ground beef from Canadian farms. Contains gluten.",
+                    "premium": false
+                },
+                {
+                    "name": "Cup And Char Pepperoni",
+                    "description": "Bold-flavoured pepperoni slices that curl into cups when baked.",
+                    "premium": true
+                }
+            ],
+            "Vegetables": [
+                {
+                    "name": "Artichokes",
+                    "description": "Dense, bold, and earthy flavour.",
+                    "premium": true
+                },
+                {
+                    "name": "Black Olives",
+                    "description": "Sourced from Greece, a classic flavour.",
+                    "premium": false
+                },
+                {
+                    "name": "Bruschetta",
+                    "description": "Fresh Roma tomatoes, red onion, roasted garlic, and herbs.",
+                    "premium": true
+                },
+                {
+                    "name": "Roasted Garlic",
+                    "description": "Roasted to bring out a bold, aromatic flavour.",
+                    "premium": false
+                },
+                {
+                    "name": "Green Olives",
+                    "description": "Distinctive taste with health benefits.",
+                    "premium": false
+                },
+                {
+                    "name": "Green Peppers",
+                    "description": "Freshly sliced to preserve flavour.",
+                    "premium": false
+                },
+                {
+                    "name": "Hot Honey",
+                    "description": "Chili pepper-infused honey.",
+                    "premium": true
+                },
+                {
+                    "name": "Italian Style Hot Peppers",
+                    "description": "Small but mighty peppers for heat and colour.",
+                    "premium": false
+                },
+                {
+                    "name": "Fresh Mushrooms",
+                    "description": "Grown on Ontario farms and freshly sliced.",
+                    "premium": false
+                },
+                {
+                    "name": "Spanish Onions",
+                    "description": "Mild and sweet, complements many flavours.",
+                    "premium": false
+                },
+                {
+                    "name": "Pineapple",
+                    "description": "Adds sweetness and unique texture.",
+                    "premium": false
+                },
+                {
+                    "name": "Plant-Based Pepperoni",
+                    "description": "Pea protein-based alternative with spices. Contains gluten.",
+                    "premium": true
+                },
+                {
+                    "name": "Portobello Mushrooms",
+                    "description": "Meaty, dense mushrooms grown in Ontario.",
+                    "premium": true
+                },
+                {
+                    "name": "Red Onions",
+                    "description": "Nutritious and mildly sweet.",
+                    "premium": false
+                },
+                {
+                    "name": "Roasted Red Peppers",
+                    "description": "Fire-roasted for bold flavour.",
+                    "premium": true
+                },
+                {
+                    "name": "Sautéed Spinach",
+                    "description": "Sautéed with olive oil and garlic for flavour.",
+                    "premium": true
+                },
+                {
+                    "name": "Sun-dried Black Olives",
+                    "description": "Sun-ripened for chewy, bold flavour.",
+                    "premium": true
+                },
+                {
+                    "name": "Sun-dried Tomatoes",
+                    "description": "Intensely flavoured, sourced from Italy.",
+                    "premium": true
+                },
+                {
+                    "name": "Sliced Tomatoes",
+                    "description": "Bright, bold flavour and rich in vitamins.",
+                    "premium": false
+                },
+                {
+                    "name": "Fresh Zucchini",
+                    "description": "Rich in nutrients, vibrant texture and flavour.",
+                    "premium": true
+                }
+            ],
+            "Cheese": [
+                {
+                    "name": "Asiago Cheese",
+                    "description": "Bold, nutty Italian cheese.",
+                    "premium": true
+                },
+                {
+                    "name": "Cheddar Cheese",
+                    "description": "Earthy, sharp cheese with a crumbly texture.",
+                    "premium": true
+                },
+                {
+                    "name": "Extra Mozzarella Cheese",
+                    "description": "100% Canadian milk, buttery taste. Default topping.",
+                    "premium": false
+                },
+                {
+                    "name": "Feta Cheese",
+                    "description": "Greek cheese with a mild and tangy taste.",
+                    "premium": true
+                },
+                {
+                    "name": "Goat Cheese",
+                    "description": "Creamy, tender cheese that pairs with fruits, meats, and veggies.",
+                    "premium": true
+                },
+                {
+                    "name": "Parmigiano Cheese",
+                    "description": "Hard Italian cheese, a staple in kitchens.",
+                    "premium": true
+                },
+                {
+                    "name": "Extra Dairy Free Mozzarella",
+                    "description": "Vegan, GMO, dairy, gluten, and soy-free alternative to mozzarella.",
+                    "premium": false
+                }
+            ]
+        }
+    },
+    "SignaturePizzas": {
+        "ClassicPizzas": [
+            {
+                "name": "Banquet Cheddar",
+                "description": "Sharp cheddar with mozzarella, crispy Canadian bacon, and seasoned Canadian ground beef.",
+                "details": "Inspired by cheeseburgers."
+            },
+            {
+                "name": "Calabrese",
+                "description": "Spicy sausage, Spanish onion, roasted red pepper.",
+                "details": "Southern Italy-inspired flavours."
+            },
+            {
+                "name": "Deluxe",
+                "description": "Pepperoni, bacon, mushrooms, green peppers, sliced tomatoes, Spanish onions.",
+                "details": "Loaded with hearty and fresh toppings."
+            },
+            {
+                "name": "Diavola",
+                "description": "Hot Soppressata, Italian hot peppers.",
+                "details": "For those who love it hot and spicy."
+            },
+            {
+                "name": "Honey Stinger",
+                "description": "Hot soppressata, sun-dried black olives, drizzled with Mike's Hot Honey.",
+                "details": "A sweet and spicy combination."
+            },
+            {
+                "name": "Meat Supreme",
+                "description": "Pepperoni, bacon strips, ground beef, spicy sausage.",
+                "details": "For meat lovers."
+            },
+            {
+                "name": "Mediterranean",
+                "description": "Sundried black olives, Spanish onions, feta, sundried tomatoes.",
+                "details": "Greek-inspired flavours."
+            },
+            {
+                "name": "Napoletana",
+                "description": "Anchovies, black olives, mushrooms.",
+                "details": "Bold and distinctive."
+            },
+            {
+                "name": "Pizza Pollo",
+                "description": "Grilled chicken, feta, roasted red peppers, sautéed spinach.",
+                "details": "Light and healthy."
+            },
+            {
+                "name": "Portobellissimo",
+                "description": "Portobello mushrooms, Italian Asiago cheese, hot soppressata.",
+                "details": "A bold kick of spice."
+            },
+            {
+                "name": "Primavera",
+                "description": "Sautéed spinach, zucchini, roasted red peppers, mushrooms, parmigiano cheese.",
+                "details": "Fresh and veggie-packed."
+            },
+            {
+                "name": "Quattro Stagioni",
+                "description": "Artichokes, black olives, mushrooms, ham.",
+                "details": "Ingredients representing four seasons."
+            },
+            {
+                "name": "Roasted Parma",
+                "description": "Zucchini, roasted red peppers, parmigiano cheese.",
+                "details": "Savoury yet light and healthy."
+            },
+            {
+                "name": "Super Gourmet",
+                "description": "Seared chicken, roasted red peppers, sundried tomatoes, feta.",
+                "details": "Robust Italian and Greek fusion."
+            },
+            {
+                "name": "Super Hawaiian",
+                "description": "Pineapple, smoked ham, crispy bacon.",
+                "details": "Classic tropical-inspired pizza."
+            },
+            {
+                "name": "The All-Star",
+                "description": "Bacon strips, grilled chicken, Italian hot peppers.",
+                "details": "Perfect for game day."
+            },
+            {
+                "name": "The Founder’s",
+                "description": "Double bacon, double Spanish onion.",
+                "details": "Homage to the founders."
+            },
+            {
+                "name": "Veggie",
+                "description": "Mushrooms, green peppers, Spanish onions.",
+                "details": "Light, healthy, and meatless."
+            },
+            {
+                "name": "Funghi Di Bosco",
+                "description": "Portobello & button mushrooms, roasted garlic, herbed olive oil base.",
+                "details": "Inspired by Italy's forests."
+            },
+            {
+                "name": "Nonna’s Favourite",
+                "description": "Herbed olive oil, mozzarella, plum tomato, basil, parmigiano cheese.",
+                "details": "Simple yet delicious."
+            },
+            {
+                "name": "Basilicata",
+                "description": "Spicy sausage, Italian hot peppers, sautéed spinach.",
+                "details": "A perfect balance of hot and cool."
+            },
+            {
+                "name": "Bruschetta Pizza",
+                "description": "Roma tomatoes, fresh herbs, red onion, roasted garlic, herbed olive oil.",
+                "details": "A spin on the Italian starter dish."
+            },
+            {
+                "name": "California",
+                "description": "Sautéed spinach, sundried tomatoes, feta, herbed olive oil base.",
+                "details": "Fresh and flavourful."
+            },
+            {
+                "name": "Chicken Alla Bianca",
+                "description": "Seared chicken, roasted red peppers, parmigiano cheese, herbed olive oil.",
+                "details": "Toppings take center stage."
+            },
+            {
+                "name": "Greek Bruschetta",
+                "description": "Bruschetta, black olives, feta, herbed olive oil.",
+                "details": "A Greek-Italian fusion."
+            },
+            {
+                "name": "IL Giardino",
+                "description": "Portobello mushrooms, roasted red peppers, sautéed spinach, parmigiano cheese.",
+                "details": "Inspired by Nonna's garden."
+            },
+            {
+                "name": "Chicken Florentine",
+                "description": "Pesto sauce, sautéed spinach, grilled chicken, feta, roasted garlic.",
+                "details": "Florence-inspired pizza."
+            },
+            {
+                "name": "Tuscan Pesto",
+                "description": "Pesto sauce, grilled chicken, roasted red peppers, artichokes, goat cheese.",
+                "details": "A taste of Tuscany."
+            },
+            {
+                "name": "Planteroni",
+                "description": "Plant-based pepperoni, mozzarella, tomato sauce.",
+                "details": "A vegan take on classic pepperoni."
+            },
+            {
+                "name": "Aloha Plant",
+                "description": "Plant-based pepperoni, pineapple, mozzarella, tomato sauce.",
+                "details": "A tropical vegan delight."
+            },
+            {
+                "name": "Campo Pizza",
+                "description": "Plant-based pepperoni, sautéed spinach, Portobello mushrooms, mozzarella, tomato sauce.",
+                "details": "A veggie-rich vegan option."
+            },
+            {
+                "name": "Gusto Plant",
+                "description": "Plant-based pepperoni, zucchini, red onions, mushrooms, mozzarella, tomato sauce.",
+                "details": "Bold plant-based flavours."
+            },
+            {
+                "name": "Piccante Plant",
+                "description": "Plant-based pepperoni, hot peppers, sundried black olives, mozzarella, tomato sauce.",
+                "details": "Spicy and vegan."
+            },
+            {
+                "name": "Vita Plant",
+                "description": "Plant-based pepperoni, sautéed spinach, red onions, mozzarella, tomato sauce.",
+                "details": "A healthy, flavourful vegan choice."
+            }
+        ],
+        "WhitePizzas": [
+            {
+                "name": "Funghi Di Bosco",
+                "description": "Portobello & button mushrooms, roasted garlic, white herbed olive oil base.",
+                "details": "Inspired by Italy's forests."
+            },
+            {
+                "name": "Nonna’s Favourite",
+                "description": "Herbed olive oil, mozzarella, plum tomato, basil, parmigiano cheese.",
+                "details": "Simple and delicious, inspired by Nonna."
+            },
+            {
+                "name": "Basilicata",
+                "description": "Spicy sausage, Italian hot peppers, sautéed spinach, herbed olive oil base.",
+                "details": "A balance of hot and cool."
+            },
+            {
+                "name": "Bruschetta Pizza",
+                "description": "Roma tomatoes, fresh herbs, red onion, roasted garlic, herbed olive oil, mozzarella.",
+                "details": "A twist on the Italian starter dish."
+            },
+            {
+                "name": "California",
+                "description": "Sautéed spinach, sundried tomatoes, feta, herbed olive oil base.",
+                "details": "Fresh and flavourful."
+            },
+            {
+                "name": "Chicken Alla Bianca",
+                "description": "Seared chicken, roasted red peppers, parmigiano cheese, herbed olive oil.",
+                "details": "Let the toppings shine."
+            },
+            {
+                "name": "Greek Bruschetta",
+                "description": "Bruschetta, black olives, feta, herbed olive oil.",
+                "details": "Greek-Italian fusion."
+            },
+            {
+                "name": "IL Giardino",
+                "description": "Portobello mushrooms, roasted red peppers, sautéed spinach, parmigiano cheese, herbed olive oil, mozzarella.",
+                "details": "Inspired by Nonna's garden."
+            }
+        ],
+        "PestoPizzas": [
+            {
+                "name": "Chicken Florentine",
+                "description": "Pesto sauce, sautéed spinach, grilled chicken, feta, roasted garlic.",
+                "details": "Florence-inspired flavours."
+            },
+            {
+                "name": "Tuscan Pesto",
+                "description": "Pesto sauce, grilled chicken, roasted red peppers, artichokes, goat cheese.",
+                "details": "A taste of Tuscany."
+            }
+        ],
+        "PlantBasedPepperoniPizzas": [
+            {
+                "name": "Planteroni",
+                "description": "Plant-based pepperoni, mozzarella, tomato sauce.",
+                "details": "A vegan take on classic pepperoni."
+            },
+            {
+                "name": "Aloha Plant",
+                "description": "Plant-based pepperoni, pineapple, mozzarella, tomato sauce.",
+                "details": "A tropical vegan delight."
+            },
+            {
+                "name": "Campo Pizza",
+                "description": "Plant-based pepperoni, sautéed spinach, Portobello mushrooms, mozzarella, tomato sauce.",
+                "details": "A veggie-rich vegan option."
+            },
+            {
+                "name": "Gusto Plant",
+                "description": "Plant-based pepperoni, zucchini, red onions, mushrooms, mozzarella, tomato sauce.",
+                "details": "Bold plant-based flavours."
+            },
+            {
+                "name": "Piccante Plant",
+                "description": "Plant-based pepperoni, hot peppers, sundried black olives, mozzarella, tomato sauce.",
+                "details": "Spicy and vegan."
+            },
+            {
+                "name": "Vita Plant",
+                "description": "Plant-based pepperoni, sautéed spinach, red onions, mozzarella, tomato sauce.",
+                "details": "A healthy, flavourful vegan choice."
+            }
+        ]
+    },
+    "Specials": [
+      {
+        "name": "The Grande",
+        "price": 21.99,
+        "description": "Large 3 Regular Topping Pizza, 2 Cans of Pop, 2 Dips.",
+        "premiumToppingsExtra": true,
+        "customization": {
+          "pizza": {
+            "toppings": 3,
+            "fullCustomization": true
+          },
+          "drinks": 2,
+          "dippingSauces": 2
+        }
+      },
+      {
+        "name": "Chicken Trio",
+        "price": 16.99,
+        "description": "Half a pound of potato wedges, 5 chicken wings, 5 breaded chicken Pollini Bites. Different sauces allowed for each dish. Serves 3.",
+        "askIfWellDone": true,
+        "customization": {
+          "wingSauceFlavour": [
+            "No Sauce",
+            "BBQ",
+            "BBQ Honey Garlic",
+            "Honey Garlic",
+            "Hot",
+            "Hot Honey Garlic",
+            "Italian Garlic Parmesan",
+            "Medium",
+            "1 Sauce on Side"
+          ],
+          "polliniSauceFlavour": [
+            "No Sauce",
+            "BBQ",
+            "BBQ Honey Garlic",
+            "Honey Garlic",
+            "Hot",
+            "Hot Honey Garlic",
+            "Italian Garlic Parmesan",
+            "Medium",
+            "1 Sauce on Side"
+          ]
+        }
+      },
+      {
+        "name": "Double Deal",
+        "price": 23.99,
+        "description": "2 Medium pizzas, 2 Regular Toppings each.",
+        "premiumToppingsExtra": true
+      },
+      {
+        "name": "Family Special - Medium",
+        "price": 35.99,
+        "description": "2 Medium 3 Regular Topping Pizzas, 1 pound of Potato Wedges, 6 cans of pop, free Cannoli Chips. Saves up to $24.11.",
+        "premiumToppingsExtra": true,
+        "customization": {
+          "toppings": 6,
+          "drinks": 6
+        }
+      },
+      {
+        "name": "Family Special - Large",
+        "price": 47.98,
+        "description": "2 Large 3 Regular Topping Pizzas, 1 pound of Potato Wedges, 6 cans of pop, free Cannoli Chips. Saves up to $20.22.",
+        "premiumToppingsExtra": true,
+        "customization": {
+          "toppings": 6,
+          "drinks": 6
+        }
+      },
+      {
+        "name": "Party 1-Topping Special",
+        "price": 25.99,
+        "description": "Serves 6 to 8 people. Choose 1 Topping.",
+        "premiumToppingsExtra": true,
+        "customization": {
+          "toppings": 1
+        }
+      },
+      {
+        "name": "Pizza and Wings - Medium",
+        "price": 29.99,
+        "description": "Medium 3 Regular Topping Pizza with choice of 10 Wings, 10 Chicken Pollini Bites, or 10 Plantollini. Saves up to $4.49.",
+        "premiumToppingsExtra": true,
+        "customization": {
+          "type": ["Wings", "Chicken Pollini Bites", "Plantollini"],
+          "flavour": "Choose from Wing Sauce Flavours"
+        }
+      },
+      {
+        "name": "Pizza and Wings - Large",
+        "price": 44.98,
+        "description": "Large 3 Regular Topping Pizza with 2 orders of 10 Wings, Chicken Pollini Bites, or Plantollini. Saves up to $8.54.",
+        "premiumToppingsExtra": true,
+        "customization": {
+          "type": ["Wings", "Chicken Pollini Bites", "Plantollini"],
+          "flavour": "Choose from Wing Sauce Flavours"
+        }
+      },
+      {
+        "name": "Sandwich Combo",
+        "startingPrice": 12.49,
+        "description": "Choice of Sandwich, Bag of Chips and Pop Can."
+      }
+  ]
+}

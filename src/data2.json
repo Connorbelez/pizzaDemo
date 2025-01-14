@@ -1,0 +1,420 @@
+{
+    "menu": {
+        "DippingSauce": [
+            {
+                "id": 1,
+                "name": "Creamy Garlic Parmesan Dip",
+                "price": "$1.25"
+            },
+            {
+                "id": 2,
+                "name": "Jalapeno Ranch Dip",
+                "price": "$1.25"
+            },
+            {
+                "id": 3,
+                "name": "Dill and Chive Dip",
+                "price": "$1.25"
+            },
+            {
+                "id": 4,
+                "name": "Homestyle Tomato Sauce",
+                "price": "$1.25"
+            },
+            {
+                "id": 5,
+                "name": "Blue Cheese Dip",
+                "price": "$1.25"
+            },
+            {
+                "id": 6,
+                "name": "Pesto Dip",
+                "price": "$1.25"
+            },
+            {
+                "id": 7,
+                "name": "Honey Garlic Sauce",
+                "price": "$1.25"
+            },
+            {
+                "id": 8,
+                "name": "Hot Sauce",
+                "price": "$1.25"
+            },
+            {
+                "id": 9,
+                "name": "Medium Sauce",
+                "price": "$1.25"
+            },
+            {
+                "id": 10,
+                "name": "Barbecue Sauce",
+                "price": "$1.25"
+            },
+            {
+                "id": 11,
+                "name": "Hot Honey Garlic",
+                "price": "$1.25"
+            },
+            {
+                "id": 12,
+                "name": "BBQ Honey Garlic",
+                "price": "$1.25"
+            }
+        ],
+        "Chicken": [
+            {
+                "id": 13,
+                "name": "10 Chicken Wings",
+                "price": "$14.99",
+                "description": "Chicken wings made from chicken raised without antibiotics.",
+                "customization": {
+                    "askWellDone": true,
+                    "sauceOptions": [
+                        "No Sauce",
+                        "BBQ",
+                        "BBQ Honey Garlic",
+                        "Honey Garlic",
+                        "Hot",
+                        "Hot Honey Garlic",
+                        "Italian Garlic Parmesan",
+                        "Medium",
+                        "1 Sauce on Side"
+                    ]
+                }
+            },
+            {
+                "id": 14,
+                "name": "20 Chicken Wings",
+                "price": "$28.99",
+                "description": "Double the portion of antibiotic-free chicken wings.",
+                "customization": {
+                    "askWellDone": true,
+                    "sauceOptions": [
+                        "No Sauce",
+                        "BBQ",
+                        "BBQ Honey Garlic",
+                        "Honey Garlic",
+                        "Hot",
+                        "Hot Honey Garlic",
+                        "Italian Garlic Parmesan",
+                        "Medium",
+                        "2 Sauces on Side"
+                    ]
+                }
+            },
+            {
+                "id": 15,
+                "name": "Chicken Trio",
+                "price": "$16.99",
+                "description": "Half-pound potato wedges, five chicken wings, five Pollini Bites.",
+                "customization": {
+                    "askWellDone": true,
+                    "sauceOptions": {
+                        "wingFlavours": [
+                            "No Sauce",
+                            "BBQ",
+                            "BBQ Honey Garlic",
+                            "Honey Garlic",
+                            "Hot",
+                            "Hot Honey Garlic",
+                            "Italian Garlic Parmesan",
+                            "Medium",
+                            "1 Sauce on Side"
+                        ],
+                        "polliniFlavours": [
+                            "No Sauce",
+                            "BBQ",
+                            "BBQ Honey Garlic",
+                            "Honey Garlic",
+                            "Hot",
+                            "Hot Honey Garlic",
+                            "Italian Garlic Parmesan",
+                            "Medium",
+                            "1 Sauce on Side"
+                        ]
+                    }
+                }
+            },
+            {
+                "id": 16,
+                "name": "10 Chicken Pollini Bites",
+                "price": "$14.99",
+                "description": "Tender breaded boneless chicken bites.",
+                "customization": {
+                    "askWellDone": true,
+                    "sauceOptions": [
+                        "No Sauce",
+                        "BBQ",
+                        "BBQ Honey Garlic",
+                        "Honey Garlic",
+                        "Hot",
+                        "Hot Honey Garlic",
+                        "Italian Garlic Parmesan",
+                        "Medium",
+                        "1 Sauce on Side"
+                    ]
+                }
+            },
+            {
+                "id": 17,
+                "name": "20 Chicken Pollini Bites",
+                "price": "$28.99",
+                "description": "Double the portion of boneless chicken bites.",
+                "customization": {
+                    "askWellDone": true,
+                    "sauceOptions": [
+                        "No Sauce",
+                        "BBQ",
+                        "BBQ Honey Garlic",
+                        "Honey Garlic",
+                        "Hot",
+                        "Hot Honey Garlic",
+                        "Italian Garlic Parmesan",
+                        "Medium",
+                        "2 Sauces on Side"
+                    ]
+                }
+            },
+            {
+                "id": 18,
+                "name": "10 Plantollini Plant-Based Chicken Bites",
+                "price": "$14.99",
+                "description": "GMO-free and vegan plant-based chicken bites.",
+                "customization": {
+                    "askWellDone": true,
+                    "sauceOptions": [
+                        "No Sauce",
+                        "BBQ",
+                        "BBQ Honey Garlic",
+                        "Honey Garlic",
+                        "Hot",
+                        "Hot Honey Garlic",
+                        "Italian Garlic Parmesan",
+                        "Medium",
+                        "1 Sauce on Side"
+                    ]
+                }
+            },
+            {
+                "id": 19,
+                "name": "20 Plantollini Plant-Based Chicken Bites",
+                "price": "$28.99",
+                "description": "Double portion of vegan plant-based chicken bites.",
+                "customization": {
+                    "askWellDone": true,
+                    "sauceOptions": [
+                        "No Sauce",
+                        "BBQ",
+                        "BBQ Honey Garlic",
+                        "Honey Garlic",
+                        "Hot",
+                        "Hot Honey Garlic",
+                        "Italian Garlic Parmesan",
+                        "Medium",
+                        "2 Sauces on Side"
+                    ]
+                }
+            }
+        ],
+        "Drinks": [
+            {
+                "id": 20,
+                "name": "Coke - Bottle",
+                "price": "$2.79"
+            },
+            {
+                "id": 21,
+                "name": "Coke Zero - Bottle",
+                "price": "$2.79"
+            },
+            {
+                "id": 22,
+                "name": "Diet Coke - Bottle",
+                "price": "$2.79"
+            },
+            {
+                "id": 23,
+                "name": "Ginger Ale - Bottle",
+                "price": "$2.79"
+            },
+            {
+                "id": 24,
+                "name": "Coke - Can",
+                "price": "$1.89"
+            },
+            {
+                "id": 25,
+                "name": "Coke Zero - Can",
+                "price": "$1.89"
+            },
+            {
+                "id": 26,
+                "name": "Diet Coke - Can",
+                "price": "$1.89"
+            },
+            {
+                "id": 27,
+                "name": "Ginger Ale - Can",
+                "price": "$1.89"
+            },
+            {
+                "id": 28,
+                "name": "Orange Fanta - Can",
+                "price": "$1.89"
+            },
+            {
+                "id": 29,
+                "name": "Root Beer - Can",
+                "price": "$1.89"
+            },
+            {
+                "id": 30,
+                "name": "Sprite - Can",
+                "price": "$1.89"
+            },
+            {
+                "id": 31,
+                "name": "San Pellegrino Aranciata Rossa (Blood Orange Flavour) - Can",
+                "price": "$2.99"
+            },
+            {
+                "id": 32,
+                "name": "San Pellegrino Limonata (Lemon Flavour) - Can",
+                "price": "$2.99"
+            },
+            {
+                "id": 33,
+                "name": "Brio - Can",
+                "price": "$2.49"
+            },
+            {
+                "id": 34,
+                "name": "Chocolate Milk - Bottle",
+                "price": "$2.79"
+            },
+            {
+                "id": 35,
+                "name": "Dasani Water - Bottle",
+                "price": "$2.39"
+            },
+            {
+                "id": 36,
+                "name": "Iced Tea - Bottle",
+                "price": "$2.79"
+            },
+            {
+                "id": 37,
+                "name": "Apple Juice - Bottle",
+                "price": "$2.99"
+            },
+            {
+                "id": 38,
+                "name": "San Pellegrino Water - Bottle",
+                "price": "$2.99"
+            },
+            {
+                "id": 39,
+                "name": "Smart Water - Bottle",
+                "price": "$3.19"
+            },
+            {
+                "id": 40,
+                "name": "Vitamin Water XXX - Bottle",
+                "price": "$3.19"
+            }
+        ],
+        "GroceryMercato": [
+            {
+                "id": 41,
+                "name": "Italian Hot Peppers",
+                "price": "$5.99",
+                "description": "Hot peppers that add a touch of heat to any dish."
+            },
+            {
+                "id": 42,
+                "name": "Taralli with Olive Oil",
+                "price": "$3.99",
+                "description": "Apulian cracker snack made with simple and natural ingredients."
+            },
+            {
+                "id": 43,
+                "name": "Sun-dried Black Olives",
+                "price": "$4.99",
+                "description": "Sun-ripened for enhanced bold and salty flavour."
+            },
+            {
+                "id": 44,
+                "name": "Homestyle Tomato Sauce (Jar)",
+                "price": "$7.49",
+                "description": "Imported Italian tomatoes, extra virgin olive oil, roasted garlic, and sea salt."
+            },
+            {
+                "id": 45,
+                "name": "Spicy Green Olives (212 grams)",
+                "price": "$3.99",
+                "description": "Whole green olives marinated in crushed chilies and onions."
+            },
+            {
+                "id": 46,
+                "name": "Doritos",
+                "price": "$1.89",
+                "description": "Nacho Cheese - 45g bag."
+            },
+            {
+                "id": 47,
+                "name": "Chip Lays Classic",
+                "price": "$1.89",
+                "description": "Lay's Classic Potato Chips - 40g bag."
+            },
+            {
+                "id": 48,
+                "name": "Sun Chips",
+                "price": "$1.89",
+                "description": "Harvest Cheddar - 40g bag."
+            },
+            {
+                "id": 49,
+                "name": "Miss Vickies",
+                "price": "$1.89",
+                "description": "Sea Salt & Malt Vinegar Potato Chips - 40g."
+            },
+            {
+                "id": 50,
+                "name": "D.O.P. Extra Virgin Olive Oil",
+                "price": "$14.99",
+                "description": "D.O.P olive oil from Terra di Bari, Castel del Monte, Italy."
+            },
+            {
+                "id": 51,
+                "name": "Extra Virgin Olive Oil with Hot Chili Pepper",
+                "price": "$12.99",
+                "description": "Extra virgin olive oil with a spicy kick."
+            },
+            {
+                "id": 52,
+                "name": "Spicy Sfilatello",
+                "price": "$3.99",
+                "description": "Hot Italian Sfilatello Pepperoni Sticks - 60g (2 sticks)."
+            },
+            {
+                "id": 53,
+                "name": "Nutella Chocolate Hazelnut Spread 25g Mini Jar",
+                "price": "$1.25",
+                "description": "Mini jar of Nutella spread."
+            },
+            {
+                "id": 54,
+                "name": "Hot Honey Bottle",
+                "price": "$16.49",
+                "description": "Mike’s Hot Honey 12oz Squeeze Bottle."
+            },
+            {
+                "id": 55,
+                "name": "Italian Peeled Tomatoes",
+                "price": "$3.99",
+                "description": "Juicy plum tomatoes and fresh basil."
+            }
+        ]
+    }
+}
