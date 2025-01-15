@@ -3,7 +3,46 @@ import { MenuItem } from '../models/menuItem';
 //import sqllite3 
 import sqlite3 from 'sqlite3'
 import path from 'path';
-
+const PizzaRules = {
+    "sizes" : {
+      "small": {
+        "size": 8,
+        "d_types" : {
+          "regular": ["thin", "thick", "regular"],
+          "whole_wheat": ["thin", "thick", "regular"]
+        }
+      },
+      "medium": {
+        "size": 10,
+        "d_types" : {
+          "regular": ["thin", "thick", "regular"],
+          "whole_wheat": ["thin", "thick", "regular"],
+          "gluten_free": ["regular"],
+          "carbon": ["thin", "regular"]
+        }
+      },
+      "large": {
+        "size": 12,
+        "d_types" : {
+          "regular": ["thin", "thick", "regular"],
+          "whole_wheat": ["thin", "regular"]
+        }
+      },
+      "jumbo": {
+        "size": 16,
+        "d_types" : {
+          "regular": ["thin", "thick", "regular"]
+        }
+      },
+      "party": {
+        "size": 18,
+        "d_types" : {
+          "regular": ["thin", "thick", "regular"]
+        }
+      }
+    }
+  }
+  
 const DATA_DIR = path.join(process.cwd(), 'db');
 const dbPath = path.join(DATA_DIR, 'menu.db');
 
@@ -16,8 +55,6 @@ const db = new sqlite3.Database(dbPath, (err) => {
 });
 
 //import json object 
-import PizzaRules from '../pizzaRules.json';
-import MenuItems from '../data.json';
 
 export type Topping = {
     name: string;
