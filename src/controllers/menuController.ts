@@ -137,6 +137,7 @@ export const validateOrder = async (req: Request, res: Response) => {
     if(!PizzaRules.sizes[order.size].d_types[order.d_type]){
         console.log("Invalid Dough Type: "+order.d_type + " for size: "+order.size + " Valid types: "+ Object.keys(PizzaRules.sizes[order.size].d_types).join(","))j
         issues.push("Invalid Dough Type: "+order.d_type + " for size: "+order.size + " Valid types: "+ Object.keys(PizzaRules.sizes[order.size].d_types).join(","))
+        console.log("ISSUES: " + issues)
     }else{
         console.log("Valid Dough Type: "+order.d_type + " for size: "+order.size)
     }
@@ -160,7 +161,7 @@ export const validateOrder = async (req: Request, res: Response) => {
         console.log("Too many toppings FROM MC, max 10 allowed, you have "+order.toppings.length)
         issues.push("Too many toppings, max 10 allowed, you have "+order.toppings.length)
     }
-
+    console.log("ISSUES: " + issues)
     //check if toppings are valid
     const validToppings = await getToppings()
     // console.log(validToppings)
@@ -171,7 +172,7 @@ export const validateOrder = async (req: Request, res: Response) => {
             issues.push("Invalid Topping: "+topping.name)
         }
     })
-   
+    console.log("ISSUES: " + issues)
     if (issues.length>0){
         console.log(issues)
         res.status(400).send(issues)
