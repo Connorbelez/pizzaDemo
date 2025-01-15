@@ -122,19 +122,28 @@ export const validateOrder = async (req: Request, res: Response) => {
     // Validate order according to the rules 
     //Check valid size:
     let issues = []
-    if(!PizzaRules.sizes[order.size]){
-        issues.push("Invalid Size : "+order.size)
-    }
+    try{
+        if(!PizzaRules.sizes[order.size]){
+            console.log("Invalid Size : "+order.size)
+            issues.push("Invalid Size : "+order.size)
+        }
     //Check valid dough type:
     //@ts-ignore
     if(!PizzaRules.sizes[order.size].d_types[order.d_type]){
+        console.log("Invalid Dough Type: "+order.d_type + " for size: "+order.size + " Valid types: "+ Object.keys(PizzaRules.sizes[order.size].d_types).join(","))j
         issues.push("Invalid Dough Type: "+order.d_type + " for size: "+order.size + " Valid types: "+ Object.keys(PizzaRules.sizes[order.size].d_types).join(","))
     }
     //Check valid dough thickness:
     //@ts-ignore
+
     if (PizzaRules.sizes[order.size].d_types[order.d_type] && !PizzaRules.sizes[order.size].d_types[order.d_type].includes(order.d_thickness)){
         //@ts-ignore
+        console.log("Invalid Dough Thickness: "+order.d_thickness + " for size: "+order.size + " and dough type: "+order.d_type + " Valid thicknesses: "+ PizzaRules.sizes[order.size].d_types[order.d_type].join(","))
+        //@ts-ignore
         issues.push("Invalid Dough Thickness: "+order.d_thickness + " for size: "+order.size + " and dough type: "+order.d_type + " Valid thicknesses: "+ PizzaRules.sizes[order.size].d_types[order.d_type].join(","))
+    }
+    }catch(e){
+        console.log("Invalid Order")
     }
     //Check Sauce types 
 
