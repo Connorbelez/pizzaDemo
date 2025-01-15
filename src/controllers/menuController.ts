@@ -156,6 +156,15 @@ export const validateOrder = async (req: Request, res: Response) => {
     console.log("ORDER TOPPINGS " + order["toppings"])
     console.log("ORDER TOPPING TABLE")
     console.table(order["toppings"])
+        
+    //iterate over object. 
+    //check key value pairs 
+    for (let key in order){
+        console.log("KEY: " + key)
+        console.log("VALUE: " + order[key as keyof PizzaOrder])
+    }
+
+
     if(order["toppings"] && order["toppings"].length>10){
         console.log("Too many toppings FROM MC, max 10 allowed, you have "+order.toppings.length)
         issues.push("Too many toppings, max 10 allowed, you have "+order.toppings.length)
