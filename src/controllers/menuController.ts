@@ -153,22 +153,6 @@ export const validateOrder = async (req: Request, res: Response) => {
     //Check Sauce types 
 
 
-    //Check Toppings 
-    //check if <10 toppings 
-    console.log("ORDER: " + order)
-    console.log("Order table")
-    console.table(order)
-    console.log("ORDER TOPPINGS " + order["toppings"])
-    console.log("ORDER TOPPING TABLE")
-    console.table(order["toppings"])
-        
-    //iterate over object. 
-    //check key value pairs 
-    for (let key in order){
-        console.log("KEY: " + key)
-        console.log("VALUE: " + order[key as keyof PizzaOrder])
-    }
-
 
     if(order["toppings"] && order["toppings"].length>10){
         console.log("Too many toppings FROM MC, max 10 allowed, you have "+order.toppings.length)
@@ -181,7 +165,7 @@ export const validateOrder = async (req: Request, res: Response) => {
     order["toppings"].filter((topping:Topping)=>{
         //pull toppings from local sqlite db
         //@ts-ignore
-        if(!validToppings.includes(topping.name)){
+        if(!validToppings.map(topping=>topping.toLowerCase()).includes(topping.name.toLowerCase())){
             issues.push("Invalid Topping: "+topping.name)
         }
     })
