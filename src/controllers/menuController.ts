@@ -150,8 +150,8 @@ export const validateOrder = async (req: Request, res: Response) => {
 
     //Check Toppings 
     //check if <10 toppings 
-    // console.log(order.toppings)
-    if(order.toppings.length>10){
+    console.log("ORDER TOPPINGS " + order.toppings)
+    if(order.toppings && order.toppings.length>10){
         console.log("Too many toppings FROM MC, max 10 allowed, you have "+order.toppings.length)
         issues.push("Too many toppings, max 10 allowed, you have "+order.toppings.length)
     }
