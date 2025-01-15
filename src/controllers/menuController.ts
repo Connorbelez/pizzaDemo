@@ -105,14 +105,19 @@ export const validateOrder = async (req: Request, res: Response) => {
     console.log(req.body)
     console.table(req.body)
     try{
-        order = req.body as PizzaOrder;
+        console.log("TRYING TO PARSE ORDER")
+        console.log("REQ BODY")
+        console.table(req.body)
+        order = req.body.order as PizzaOrder;
         if (!order){
             console.error("Invalid Order Structure")
             console.table(req.body)
             res.status(400).send("Invalid Order Structure");
             return;
         }
-
+        console.log("ORDER: " + order)
+        console.log("ORDER TABLE: ")
+        console.table(order)
     }catch(e){
         console.error("Invalid Order Structure")
         console.table(req.body)
