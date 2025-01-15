@@ -137,6 +137,8 @@ export const validateOrder = async (req: Request, res: Response) => {
     if(!PizzaRules.sizes[order.size].d_types[order.d_type]){
         console.log("Invalid Dough Type: "+order.d_type + " for size: "+order.size + " Valid types: "+ Object.keys(PizzaRules.sizes[order.size].d_types).join(","))j
         issues.push("Invalid Dough Type: "+order.d_type + " for size: "+order.size + " Valid types: "+ Object.keys(PizzaRules.sizes[order.size].d_types).join(","))
+    }else{
+        console.log("Valid Dough Type: "+order.d_type + " for size: "+order.size)
     }
     //Check valid dough thickness:
     //@ts-ignore
