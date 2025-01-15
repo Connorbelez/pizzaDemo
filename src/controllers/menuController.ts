@@ -150,8 +150,13 @@ export const validateOrder = async (req: Request, res: Response) => {
 
     //Check Toppings 
     //check if <10 toppings 
+    console.log("ORDER: " + order)
+    console.log("Order table")
+    console.table(order)
     console.log("ORDER TOPPINGS " + order.toppings)
-    if(order.toppings && order.toppings.length>10){
+    console.log("ORDER TOPPING TABLE")
+    console.table(order.toppings)
+    if(order["toppings"] && order["toppings"].length>10){
         console.log("Too many toppings FROM MC, max 10 allowed, you have "+order.toppings.length)
         issues.push("Too many toppings, max 10 allowed, you have "+order.toppings.length)
     }
@@ -159,7 +164,7 @@ export const validateOrder = async (req: Request, res: Response) => {
     //check if toppings are valid
     const validToppings = await getToppings()
     console.log(validToppings)
-    order.toppings.filter((topping:Topping)=>{
+    order["toppings"].filter((topping:Topping)=>{
         //pull toppings from local sqlite db
         //@ts-ignore
         if(!validToppings.includes(topping.name)){
